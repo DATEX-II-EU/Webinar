@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DATEXSnaphotPull/.vs/DATEXSnaphotPull
+/DATEXSnaphotPull/bin/Debug/net7.0
+/DATEXSnaphotPull/obj
+/DATEXSnaphotPull/bin/Release/net7.0
+/DATEXSnaphotPull/Properties/PublishProfiles
+/DATEXSnaphotPull/Properties/ServiceDependencies/DatexOpenAPI - Web Deploy
+/DATEXSnaphotPull/DATEXSnaphotPull.csproj.user
+/CSClient/.vs/CSClient
+/CSClient/bin/Debug/net7.0
+/CSClient/obj
+/DATEXSnaphotPull/.vs/ProjectEvaluation

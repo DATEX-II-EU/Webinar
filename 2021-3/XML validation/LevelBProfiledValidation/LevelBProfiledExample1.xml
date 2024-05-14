@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<d2:payload xmlns="http://datex2.eu/schema/3/common" xmlns:com="http://datex2.eu/schema/3/common" xmlns:d2="http://datex2.eu/schema/3/d2Payload" xmlns:ext="http://datex2.eu/schema/3/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="com:GenericPublication" lang="en" modelBaseVersion="3" xsi:schemaLocation="http://datex2.eu/schema/3/d2Payload DATEXII_3_D2Payload.xsd">
+	<publicationTime>2021-03-04T08:00:00+01:00</publicationTime>
+	<!--	<feedType></feedType>-->
+	<publicationCreator>
+		<country>SE</country>
+		<nationalIdentifier>NATX</nationalIdentifier>
+	</publicationCreator>
+	<genericPublicationName>Level B Profiled Publication</genericPublicationName>
+	<_genericPublicationExtension>
+		<genericPublicationExtended>
+			<!-- greeting have facets -->
+			<ext:greeting>Hello World</ext:greeting>
+		</genericPublicationExtended>
+	</_genericPublicationExtension>
+</d2:payload>

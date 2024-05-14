@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>0262bfba-f0c8-4859-aa87-c49611796c51</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Schema\DATEXII_3_Common_DATEXII_3_D2Payload.cs" />
+    <Compile Remove="Schema\DATEXII_3_D2Payload.xsd.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Schema\DATEXII_3_D2Payload.xsd.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Schema\DATEXII_3_Common.xsd" />
+    <None Remove="Schema\DATEXII_3_D2Payload.xsd" />
+  </ItemGroup>
+
+
+</Project>

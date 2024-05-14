@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:ext="http://datex2.eu/schema/3/extension" version="3.1" targetNamespace="http://datex2.eu/schema/3/extension" xmlns:com="http://datex2.eu/schema/3/common" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://datex2.eu/schema/3/common" schemaLocation="DATEXII_3_Common.xsd" />
+  <xs:complexType name="GenericPublicationExtended">
+    <xs:sequence>
+      <xs:element name="greeting" minOccurs="1" maxOccurs="1">
+        <xs:simpleType>
+          <xs:restriction base="com:String">
+            <xs:pattern value="[A-Za-z ]*" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

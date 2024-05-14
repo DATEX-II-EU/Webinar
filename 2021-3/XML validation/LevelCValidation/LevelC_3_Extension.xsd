@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<xs:schema elementFormDefault="qualified" attributeFormDefault="unqualified" xmlns:ext="http://levelC/schema/3/extension" version="3.1" targetNamespace="http://levelC/schema/3/extension" xmlns:com="http://levelC/schema/3/common" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://levelC/schema/3/common" schemaLocation="LevelC_3_Common.xsd" />
+  <xs:complexType name="AnotherClass">
+    <xs:complexContent>
+      <xs:extension base="com:GenericPublication">
+        <xs:sequence>
+          <xs:element name="anotherString" type="com:String" minOccurs="1" maxOccurs="1" />
+          <xs:element name="_anotherClassExtension" type="com:_ExtensionType" minOccurs="0" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="GenericPublicationExtended">
+    <xs:sequence>
+      <xs:element name="greeting" type="com:String" minOccurs="1" maxOccurs="1" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

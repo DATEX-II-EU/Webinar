@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<d2:payload xmlns="http://levelC/schema/3/common" xmlns:com="http://levelC/schema/3/common" xmlns:d2="http://levelC/schema/3/d2Payload" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="com:GenericPublication" lang="en" modelBaseVersion="3" xsi:schemaLocation="http://levelC/schema/3/d2Payload LevelC_3_D2Payload.xsd">
+	<publicationTime>2021-03-04T08:00:00+01:00</publicationTime>
+	<publicationCreator>
+		<country>SE</country>
+		<nationalIdentifier>NATX</nationalIdentifier>
+	</publicationCreator>
+	<genericPublicationName>LevelC</genericPublicationName>
+</d2:payload>

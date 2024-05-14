@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Schema\DATEXII_3_Common.xsd" />
+    <None Remove="Schema\DATEXII_3_D2Payload.xsd" />
+  </ItemGroup>
+
+
+</Project>

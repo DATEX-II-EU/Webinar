@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+ <payload modelBaseVersion="3" xmlns="http://datex2.eu/schema/3/common" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GenericPublication" lang="en">
+    <publicationTime>2021-03-01T16:00:00+01:00</publicationTime>
+    <publicationCreator>
+      <country>gb</country>
+      <nationalIdentifier>test</nationalIdentifier>
+    </publicationCreator>
+	<genericPublicationName>Hello World Publication</genericPublicationName>
+  </payload>
+  
